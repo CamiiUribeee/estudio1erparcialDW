@@ -18,7 +18,7 @@ import { Icon } from 'astro-icon/components';
 		<title>{title}</title>
 	</head>
 
-	<div class="">
+	<div class="flex justify-center items-center">
 		<div class="bg-white container w-full flex">
 			<input class="flex justify-start ml-60 w-auto h-9 pl-4 pr-14" type="text" placeholder="Types...">
 			<div class="ml-2 text-amber-950 flex items-center">
@@ -34,16 +34,35 @@ import { Icon } from 'astro-icon/components';
 			</div>
 		</div>
 	</div>
-
-	<header class="container max-w-7xl mx-auto h-16 flex justify-center">
-		<div>
-			<a href="">
-				
+	<br>
+	<header class="flex justify-center items-center">
+		<menu class="ml-4 flex items-center justify-centers">
+			<a href="#" class="hover:underline-offset-[6px] decoration-2 flex items-center mx-17 justify-center">
+				HOME 
+				<Icon class="mr-7" name="mdi:chevron-down" />
 			</a>
-
-		</div>
-
-
+			<a href="#" class="hover:underline-offset-[6px] decoration-2 flex items-center mx-17 justify-center">
+				SHOP 
+				<Icon class="mr-7" name="mdi:chevron-down" />
+			</a>
+			<a href="#" class="hover:underline-offset-[6px] decoration-2 flex items-center mx-17 justify-center">
+				BLOG
+				<Icon class="mr-7" name="mdi:chevron-down" />
+			</a>
+			<a href="#" class="hover:underline-offset-[6px] decoration-2 flex items-center mx-17 justify-center">
+				SERVICES 
+				<Icon class="mr-7" name="mdi:chevron-down" />
+			</a>
+			<a href="#" class="hover:underline-offset-[6px] decoration-2 flex items-center mx-17 justify-center">
+				ABOUT US 
+				<Icon class="mr-7" name="mdi:chevron-down" />
+			</a>
+			<a href="#" class="hover:underline-offset-[6px] decoration-2 flex items-center mx-17 justify-center">
+				CONTACT US 
+				<Icon class="mr-7" name="mdi:chevron-down" />
+			</a>
+	
+		</menu>
 	</header>
 
 
